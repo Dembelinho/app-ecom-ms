@@ -1,0 +1,41 @@
+/* Style de la table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th, .table td {
+  border: 1px solid rgba(239, 238, 238, 0.95);
+  padding: 8px;
+  text-align: left;
+}
+
+.table thead {
+  background-color: #f2f2f2;
+}
+
+/* Style des boutons */
+.btn {
+  padding: 5px 10px;
+  background-color: #78de1a;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgba(116, 232, 97, 0.89);
+}
+
+/* Marge supérieure pour les boutons */
+.btn-success {
+  margin-top: 5px;
+}
+
+/* Titre h2 */
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin: 20px 0;
+}

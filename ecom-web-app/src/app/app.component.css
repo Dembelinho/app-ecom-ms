@@ -1,0 +1,22 @@
+/* app.component.css */
+.navbar {
+  background-color: #f0f0f0;
+}
+
+.nav-link {
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-link.active {
+  color: #007bff;
+}
+a {
+  text-decoration: none; /* Supprimer le soulignement des liens */
+  color: #007bff; /* Couleur du texte des liens */
+}
+
+a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,42 @@
+h2 {
+  color: #007bff; /* Changer la couleur du titre */
+}
+
+table {
+  width: 100%; /* Ajuster la largeur de la table à 100% */
+  border-collapse: collapse; /* Fusionner les bordures des cellules de la table */
+}
+
+th, td {
+  padding: 10px; /* Ajouter un espacement interne aux cellules du tableau */
+}
+.button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+/* Styles pour les lignes du tableau au survol */
+tr:hover {
+  background-color: #f2f2f2; /* Couleur de fond au survol */
+}
+
+/* Styles pour les cellules du tableau */
+th {
+  background-color: #007bff; /* Couleur de fond de l'en-tête du tableau */
+  color: #fff; /* Couleur du texte de l'en-tête */
+}
+
+
+

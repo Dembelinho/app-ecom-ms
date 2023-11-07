@@ -1,0 +1,28 @@
+/* Style pour la page de produits */
+.container {
+  margin: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.table th, .table td {
+  border: 1px solid #8ed3c3;
+  padding: 8px;
+  text-align: left;
+}
+
+.table thead {
+  background-color: #a5ccc5;
+}
+
+/* Style pour le texte d'accueil */
+p b {
+  font-size: 24px;
+  color: #482525;
+  text-align: center;
+  margin: 20px 0;
+}

@@ -1,0 +1,24 @@
+<p><h2>WELCOME TO orders Page!</h2>
+<div class="container">
+  <table class="table" *ngIf="orders">
+    <thead>
+    <tr>
+      <th>ID</th>
+      <th>Status</th>
+      <th>Date</th>
+      <th>customerID</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let o of orders._embedded.orders">
+      <td>{{o.id}}</td>
+      <td>{{o.status}}</td>
+      <td>{{o.createdAt|date:'d/MM/YYYY'}}</td>
+      <td>{{o.customerID}}</td>
+      <td>
+        <button class="btn btn-success" type="submit" (click)="getOrderDetails(o)">Orders Details</button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
